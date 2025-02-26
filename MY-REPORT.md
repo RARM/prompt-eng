@@ -49,13 +49,13 @@ We then used the updated zero-shot technique as the template to explore how othe
 1. [Few-shot](./prompt-eng/few_shots.ipynb)
 2. [Chain-of-thought](./prompt-eng/chain_of_thought.ipynb)
 3. [Meta prompting](./prompt-eng/meta_prompt.ipynb)
-4. Role-based
+4. [Role-based](./prompt-eng/role_based.ipynb)
 5. [Self consistency](./prompt-eng/self_consistency.ipynb)
-6. Generate Knowledge
-7. Automatic Reasoning
+6. [Generate Knowledge](./prompt-eng/general_knowledge.ipynb)
+7. [Automatic Reasoning](./prompt-eng/automatic_reasoning.ipynb)
 8. Prompt Chaining
-  - 1-Level Automation
-  - 2-Level Automatin
+  - [1-Level Automation](./prompt-eng/prompt_chaining_1.ipynb)
+  - [2-Level Automatin](./prompt-eng/prompt_chaining_2.ipynb)
 
 For the chain-of-thought experiment, we not only added guidance to the prompt, but used a different model, `deepkseep-r1:7b`.
 
