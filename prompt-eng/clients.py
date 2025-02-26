@@ -193,7 +193,6 @@ class OllamaClient(ChatbotClient):
         post_body.update(self._parse_options(options) if options else {})
         if self._system_prompt:
             post_body["messages"] = [self._generate_system_message()] + post_body["messages"]
-        breakpoint()
         response = requests.post(url, json=post_body, timeout=600)
         response.raise_for_status()
         return response.json()
